@@ -52,27 +52,41 @@ ISIC 2018 Skin Lesion Segmentation
 
 
 URL: https://www.kaggle.com/datasets/yatharthtripathi56/isic-2018-skin-lesion-segmentation
+
 Images: 2,594 dermoscopic images 
+
 Classes: Skin lesion vs. background 
+
 Challenges: Variable lighting, hair artifacts, low contrast regions 
+
 Split: 70% train, 15% validation, 15% test 
+
 Annotation setting: Simulate limited labels (10%, 30%, 50%) 
  
 Synapse Multi-Organ CT Segmentation 
 
 
 URL: https://www.kaggle.com/datasets/yatharthtripathi56/brats2020
+
 Images: abdominal CT scans 
+
 Classes: Spleen, right kidney, left kidney, gallbladder, esophagus, liver, stomach, aorta, inferior vena cava, portal vein, pancreas 
+
 Challenges: Low contrast between organs, class imbalance 
+
 Split: Leave-one-out cross-validation (typical in small dataset scenarios) 
  
 BraTS 2020 Brain Tumor Segmentation
 
 
 URL: https://www.kaggle.com/datasets/yatharthtripathi56/brats2020
+
 Images: multimodal MRI scans (T1, T1c, T2, FLAIR) 
+
 Classes: Necrotic/non-enhancing tumor, edema, enhancing tumor, background 
+
 Challenges: Low contrast between tumor regions, variable image quality 
+
 Split: 70% train, 15% validation, 15% test 
+
 Annotation setting: Simulate limited labels 
